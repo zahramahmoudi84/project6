@@ -1,0 +1,57 @@
+.goli{
+
+    list-style: none;
+
+
+}
+
+.goli li{
+float: left;
+    background-color: rgb(216, 214, 211);
+    padding: 15px;
+    position: relative;
+    top: 100px;
+    left: 50px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 5px;
+    
+}
+#a{
+    background-color: rgb(237, 11, 11);
+    color: white;
+   
+}
+#b{
+    background-color: black;
+    color: white;
+    float: left;
+}
+#c{
+    width: 620px;
+    height: 10px;
+    background-color: rgb(237, 11, 11);
+    position: absolute;
+    left: 98px;
+    top: 160px;
+   float: left;
+}
+#rozi li{
+    float: none;
+    background-color: rgb(255, 63, 63);
+list-style: none;
+border-bottom: 30px;
+position: relative;
+top: 20px;
+left: 0%;
+text-align: center;
+}
+#rozi{
+    display: none;
+    position: fixed;
+}
+.goli li:hover #rozi{
+    display: block;
+    
+
+}
+
